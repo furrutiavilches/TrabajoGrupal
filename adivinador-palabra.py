@@ -68,6 +68,7 @@ def adivinar():
         # Si se quedó sin intentos
         print("\n💀 Game Over. La palabra era:", palabra_secreta)
 
-if _name_ == "_main_":
+# Bloque principal CORRECTO
+if __name__ == "__main__":
     if juego == "si":
-        adivinar()
+        adivinar()
