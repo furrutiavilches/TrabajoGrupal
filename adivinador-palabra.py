@@ -25,7 +25,7 @@ else:
     print("Está bien, en otro momento lo intentas 👋")
 
 def seleccion_palabra():
-    palabras = ["arepa", "ceviche", "asado", "empanada", "locro", "pisco", "feijoada", "humita"]
+    palabras = ["asado", "empanadas", "locro", "choripan", "milanesa", "provoleta", "humita", "matambre", "carbonada", "guiso", "chipa", "pastelitos", "medialunas", "facturas", "alfajores"]
     return random.choice(palabras)
 
 def guion_palabra(palabra, letras_correctas):
